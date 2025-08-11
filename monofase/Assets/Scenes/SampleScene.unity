@@ -396,7 +396,10 @@ GameObject:
   - component: {fileID: 1041104525}
   - component: {fileID: 1041104524}
   - component: {fileID: 1041104526}
+<<<<<<< HEAD
   - component: {fileID: 1041104527}
+=======
+>>>>>>> 6fe488b2c30245987d1b2da75f819eefec193fec
   m_Layer: 0
   m_Name: Square
   m_TagString: Chao
@@ -520,6 +523,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!50 &1041104527
 Rigidbody2D:
   serializedVersion: 5
@@ -913,6 +917,8 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+=======
+>>>>>>> 6fe488b2c30245987d1b2da75f819eefec193fec
 --- !u!1 &1985586500
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,9 +930,15 @@ GameObject:
   - component: {fileID: 1985586503}
   - component: {fileID: 1985586502}
   - component: {fileID: 1985586501}
+<<<<<<< HEAD
   - component: {fileID: 1985586504}
   - component: {fileID: 1985586506}
   - component: {fileID: 1985586505}
+=======
+  - component: {fileID: 1985586505}
+  - component: {fileID: 1985586504}
+  - component: {fileID: 1985586506}
+>>>>>>> 6fe488b2c30245987d1b2da75f819eefec193fec
   m_Layer: 0
   m_Name: Idle (32x32)_0
   m_TagString: Untagged
@@ -1020,20 +1032,32 @@ Transform:
   m_GameObject: {fileID: 1985586500}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: -7.9756, y: -3.5724, z: 0}
   m_LocalScale: {x: 3.9081323, y: 4.315866, z: 1.4908}
+=======
+  m_LocalPosition: {x: -8.24, y: -3.61, z: 0}
+  m_LocalScale: {x: 2.6215, y: 2.895, z: 1}
+>>>>>>> 6fe488b2c30245987d1b2da75f819eefec193fec
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 519420032}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1985586504
 MonoBehaviour:
+=======
+--- !u!50 &1985586504
+Rigidbody2D:
+  serializedVersion: 5
+>>>>>>> 6fe488b2c30245987d1b2da75f819eefec193fec
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985586500}
+<<<<<<< HEAD
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eba66df2f5e0c784990241aeb650841e, type: 3}
@@ -1043,6 +1067,29 @@ MonoBehaviour:
   forcaDoPulo: 4
 --- !u!70 &1985586505
 CapsuleCollider2D:
+=======
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1985586505
+BoxCollider2D:
+>>>>>>> 6fe488b2c30245987d1b2da75f819eefec193fec
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1076,16 +1123,33 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
   m_Size: {x: 0.24, y: 0.24999999}
   m_Direction: 0
 --- !u!50 &1985586506
 Rigidbody2D:
   serializedVersion: 5
+=======
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.24, y: 0.25}
+    newSize: {x: 0.24, y: 0.25}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.24, y: 0.25}
+  m_EdgeRadius: 0
+--- !u!114 &1985586506
+MonoBehaviour:
+>>>>>>> 6fe488b2c30245987d1b2da75f819eefec193fec
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985586500}
+<<<<<<< HEAD
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -1105,6 +1169,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+=======
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eba66df2f5e0c784990241aeb650841e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 10
+  forcaDoPulo: 4
+>>>>>>> 6fe488b2c30245987d1b2da75f819eefec193fec
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
