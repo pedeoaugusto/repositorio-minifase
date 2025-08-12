@@ -4,7 +4,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     
-    public float velocidade = 10;
+    public float velocidade = 40;
     public float forcaDoPulo = 4;
     
     private bool noChao = false;
